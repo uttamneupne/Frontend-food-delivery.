@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 const Navbar = ({setShowLogin}) => {
 
-  const [menu,setMenu] = useState("home")
+  const [menu,setMenu] = useState("menu")
 
   return (
     <div className='navbar'>
